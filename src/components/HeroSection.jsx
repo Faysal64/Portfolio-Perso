@@ -1,5 +1,5 @@
 import React from 'react';
-import Profil from '../assets/images/profil.png';
+import Profil from '../assets/images/Picture.png';
 import '../styles/HeroSection.css';
 
 
@@ -29,7 +29,7 @@ function HeroSection() {
           <img src={Profil} alt="Faysal Driouach" />
         </div>
       </div>
-    </section>
+    </section>        
   );
 }
 

@@ -7,7 +7,6 @@ body {
 
 .header {
   background-color: transparent;
-  position: sticky;
   top: 0;
   z-index: 1000;
 }
@@ -44,15 +43,17 @@ body {
 
 .nav-links a {
   margin-left: 20px;
-  font-family: 'Inter', sans-serif;
-
+   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: black;
   font-weight: 500;
-  transition: color 0.3s;
-  line-height: 70px; /* vertical align */
+  line-height: 70px;
+  transition: all 0.3s ease; /* ✅ important pour lisser l'effet */
 }
+
 
 .nav-links a:hover {
   color: #007bff;
+  transform: scale(1.1); /* ✅ effet agrandissement */
 }
+
