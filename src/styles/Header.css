@@ -30,9 +30,8 @@ body {
 }
 
 .logo img {
-  height: 250px;
-  display: block;
-  margin-top: -85px; /* 🔥 plus de décalage */
+  height: 100px;        /* ✅ Réduction de la taille */
+  margin-top: -20px;    /* ✅ Ajuste selon l'effet désiré */
 }
 
 
