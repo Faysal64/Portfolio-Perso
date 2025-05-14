@@ -2,24 +2,17 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: transparent;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .header-container {
-  background: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    #d0e8ff 15%,    /* bleu très clair pour lisser le blanc */
-    #6ea8ff 35%,    /* bleu moyen */
-    #2946d0 65%,    /* bleu foncé */
-    #000000 100%    /* noir */
-  );
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -55,7 +48,7 @@ body {
   font-family: 'Inter', sans-serif;
 
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 500;
   transition: color 0.3s;
   line-height: 70px; /* vertical align */

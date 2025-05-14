@@ -9,6 +9,13 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.hero-background-wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
