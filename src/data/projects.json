@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Booki",
+    "description": "Création d'un site web responsive pour une agence de voyage (HTML/CSS)",
+    "image": "Booki.png"
+  },
+  {
+    "title": "Outdoor",
+    "description": "Développé en HTML et CSS ce site est un projet personnel pour une agence touristique",
+    "image": "Outdoor.png"
+  },
+  {
+    "title": "Kasa",
+    "description": "Site de location d'appartement réalisé en ReactJs, réutilisation des composants.",
+    "image": "Kasa.png"
+  },
+  {
+    "title": "Ohmyfood",
+    "description": "Site web responsive avec animations CSS pour un restaurant",
+    "image": "Ohmyfood.png"
+  },
+  {
+    "title": "Sophie Bluel",
+    "description": "Ce site est un portfolio d'une photographe, réalisé en HTML, CSS et JavaScript. Le site inclut un filtrage dynamique des catégories.",
+    "image": "Sophie.png"
+  },
+  {
+    "title": "724 events",
+    "description": "Débugguer le site d'une agence d'événementiel",
+    "image": "724-events.png"
+  },
+  {
+    "title": "Print it",
+    "description": "Mise en place d'un carrousel en JavaScript",
+    "image": "Print-it.png"
+  },
+  {
+    "title": "Nina Carrducci",
+    "description": "Optimiser le site d'une photographe grâce au référencement naturel SEO",
+    "image": "Nina.png"
+  },
+  {
+    "title": "Argent Bank",
+    "description": "Site web responsive pour une banque réalisé en ReactJs, utilisation de Redux et réutilisation des composants",
+    "image": "Argent-Bank.png"
+  }
+]

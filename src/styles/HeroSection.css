@@ -43,6 +43,10 @@ body {
   margin: 20px 0;
 }
 
+.text-content h2 {
+  border-bottom: none;
+}
+
 .text-content p {
   margin: 20px 0;
   font-size: 16px;
@@ -73,7 +77,7 @@ body {
 }
 
 .btn.primary:hover {
-  background-color: #8d53e0;
+  background-color: black;
 }
 
 .btn.secondary,

@@ -7,6 +7,7 @@ import ProjectsSection from './components/ProjectsSection';
 import SkillsSection from './components/SkillsSection';
 import Fond from './assets/images/Fond.png'; // ← import de ton image de fond
 
+
 function App() {
   return (
     <div>
