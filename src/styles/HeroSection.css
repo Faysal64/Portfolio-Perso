@@ -15,12 +15,14 @@ body {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
+  height: 650px;
 }
 
 .text-content {
   flex: 1;
   min-width: 300px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .text-content h1 {
@@ -105,7 +107,7 @@ body {
 
 .image-content img {
   filter: drop-shadow(0 0 10px rgba(0, 100, 255, 0.4));
-    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 }
 

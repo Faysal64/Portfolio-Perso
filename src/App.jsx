@@ -4,6 +4,7 @@ import Footer from './components/footer';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
+import Formations from './components/Formations';
 import SkillsSection from './components/SkillsSection';
 import Fond from './assets/images/Fond.png'; // ← import de ton image de fond
 
@@ -30,6 +31,7 @@ function App() {
         <ServicesSection />
         <ProjectsSection />
         <SkillsSection />
+        <Formations />
       </main>
       <Footer />
     </div>
