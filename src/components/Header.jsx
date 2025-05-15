@@ -11,9 +11,9 @@ function Header() {
       const currentY = window.scrollY;
 
       if (currentY > lastScrollY) {
-        setShowHeader(false); // scroll vers le bas → cacher
+        setShowHeader(false); 
       } else {
-        setShowHeader(true); // scroll vers le haut → montrer
+        setShowHeader(true); 
       }
 
       setLastScrollY(currentY);
