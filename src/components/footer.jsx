@@ -3,21 +3,35 @@ import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id='contact' className="footer">
       <div className="footer-container">
         <h2>Me contacter</h2>
 
-        <p className="contact-mail">fdriouach10@gmail.com</p>
+        <p className="contact-mail">faysaldriouach.64@gmail.com</p>
 
-        <form className="contact-form">
-          <label>Email</label>
-          <input type="email" placeholder="john@doe.fr" required />
+        <form 
+        className="contact-form" 
+        method="POST" 
+        action="https://formspree.io/f/xyzwvkyj"
+        >
+        <label>Email</label>
+        <input 
+        type="email" 
+        name="email"               
+        placeholder="john@doe.fr" 
+        required 
+        />
 
-          <label>Message</label>
-          <textarea placeholder="Que souhaitez-vous dire ?" required></textarea>
+        <label>Message</label>
+        <textarea 
+         name="message"             
+        placeholder="Que souhaitez-vous dire ?" 
+        required
+        ></textarea>
 
-          <button type="submit">ENVOYER</button>
-        </form>
+        <button type="submit">ENVOYER</button>
+      </form>
+
 
         <p className="footer-text">
           Ce site a été réalisé à la main et ne collecte aucune donnée.

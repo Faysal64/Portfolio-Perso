@@ -5,7 +5,7 @@ import '../styles/HeroSection.css';
 
 function HeroSection() {
   return (
-    <section className="hero-section">
+    <section id='acceuil' className="hero-section">
       <div className="main-content">
         <div className="text-content">
           <h1>
@@ -19,8 +19,8 @@ function HeroSection() {
           </p>
           <div className="buttons">
             <a href="#contact" className="btn primary">Contactez-moi</a>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="btn secondary">Voir sur GitHub</a>
-            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="btn download">
+            <a href="https://github.com/Faysal64" target="_blank" rel="noopener noreferrer" className="btn secondary">Voir sur GitHub</a>
+            <a href="/CV-Dev-Ia.pdf" target="_blank" rel="noopener noreferrer" className="btn download">
               <span className="icon">⬇</span> Télécharger mon CV
             </a>
           </div>

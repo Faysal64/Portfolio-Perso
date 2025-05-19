@@ -6,7 +6,7 @@ import '../styles/ServicesSection.css';
 
 function ServicesSection() {
   return (
-    <section className="services-section">
+    <section id='services' className="services-section">
       <h2>Mes services</h2>
       <div className="services-grid">
         <div className="service-card">

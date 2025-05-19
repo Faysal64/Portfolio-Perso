@@ -22,8 +22,8 @@ function Formations() {
   ];
 
   return (
-    <section className="formations-section">
-      <h2>Mon Parcours</h2>
+    <section id='formations' className="formations-section">
+      <h2>Mes Formations</h2>
       <div className="timeline">
         {data.map((item, index) => (
           <div

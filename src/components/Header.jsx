@@ -30,10 +30,10 @@ function Header() {
           <img src={Logo} alt="Logo" />
         </div>
         <nav className="nav-links">
-          <a href="#home">ACCEUIL</a>
-          <a href="#about">SERVICES</a>
-          <a href="#skills">PROJETS</a>
-          <a href="#projects">COMPETENCES</a>
+          <a href="#acceuil">ACCEUIL</a>
+          <a href="#services">SERVICES</a>
+          <a href="#projets">PROJETS</a>
+          <a href="#competences">COMPETENCES</a>
           <a href="#formations">FORMATIONS</a>
           <a href="#contact" className="contact-button">CONTACT</a>
 
