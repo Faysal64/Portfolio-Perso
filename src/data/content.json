@@ -1,0 +1,109 @@
+{
+  "header": {
+  "home": "ACCEUIL",
+  "services": "SERVICES",
+  "projects": "PROJETS",
+  "skills": "COMPETENCES",
+  "formations": "FORMATIONS",
+  "contact": "CONTACT"
+},
+
+  "hero": {
+    "intro": "Hello !",
+    "firstName": "Moi c’est",
+    "name": "Faysal.",
+    "role": "Développeur Front-end",
+    "description": "Ensemble, réalisons des projets innovants. À distance ou sur site, je suis prêt à relever de nouveaux défis.",
+    "github": "https://github.com/Faysal64",
+    "cv": "/CV-Dev-Ia.pdf"
+  },
+  "services": [
+    {
+      "title": "Applications",
+      "description": "Développe des sites vitrines, e-commerce, applications web, mobile ou de bureau.",
+      "image": "Applications.png"
+    },
+    {
+      "title": "Expérience utilisateur & Design",
+      "description": "Une expérience fluide et intuitive pour vos utilisateurs, du wireframe au produit fini.",
+      "image": "UXphoto.png"
+    },
+    {
+      "title": "Accessibilité",
+      "description": "HTML sémantique, ARIA, navigation clavier : un web ouvert à tous, sans barrière.",
+      "image": "SEO.png"
+    }
+  ],
+  "skills": [
+    [
+      "html5",
+      "HTML5"
+    ],
+    [
+      "css3",
+      "CSS3"
+    ],
+    [
+      "javascript",
+      "JavaScript"
+    ],
+    [
+      "react",
+      "React"
+    ],
+    [
+      "redux",
+      "Redux"
+    ],
+    [
+      "sass",
+      "Sass"
+    ],
+    [
+      "vscode",
+      "VS Code"
+    ],
+    [
+      "git",
+      "Git"
+    ],
+    [
+      "github",
+      "GitHub"
+    ]
+  ],
+  "formations": [
+    {
+      "year": "2024 - 2025",
+      "title": "Développeur Intégrateur Web",
+      "subtitle": "Formation OpenClassrooms"
+    },
+    {
+      "year": "2020 - 2022",
+      "title": "BTS Commerce International",
+      "subtitle": "Lycée Saint-John Perse à Pau"
+    },
+    {
+      "year": "2019 - 2020",
+      "title": "Baccalauréat STMG",
+      "subtitle": "Lycée Louis Barthou à Pau"
+    }
+  ],
+  "footer": {
+    "email": "faysaldriouach.64@gmail.com",
+    "text": "Ce site a été réalisé à la main et ne collecte aucune donnée. Vous pouvez trouver le code source sur GitHub. Merci de votre visite, passez une bonne journée ! 👋"
+  },
+  "labels": {
+    "contactButton": "Contactez-moi",
+    "githubButton": "Voir sur GitHub",
+    "downloadCV": "Télécharger mon CV",
+    "servicesTitle": "Mes services",
+    "skillsTitle": "Mes Compétences",
+    "formationsTitle": "Mes Formations",
+    "contactTitle": "Me contacter",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Que souhaitez-vous dire ?",
+    "sendButton": "ENVOYER"
+  }
+}

@@ -1,20 +1,23 @@
 import React from 'react';
 import '../styles/Footer.css';
+import content from '../data/content.json';
 
 function Footer() {
+  const { footer, labels } = content;
+
   return (
     <footer id='contact' className="footer">
       <div className="footer-container">
-        <h2>Me contacter</h2>
+        <h2>{labels.contactTitle}</h2>
 
-        <p className="contact-mail">faysaldriouach.64@gmail.com</p>
+        <p className="contact-mail">{footer.email}</p>
 
         <form 
         className="contact-form" 
         method="POST" 
         action="https://formspree.io/f/xyzwvkyj"
         >
-        <label>Email</label>
+        <label>{labels.emailLabel}</label>
         <input 
         type="email" 
         name="email"               
@@ -22,22 +25,17 @@ function Footer() {
         required 
         />
 
-        <label>Message</label>
+        <label>{labels.messageLabel}</label>
         <textarea 
          name="message"             
-        placeholder="Que souhaitez-vous dire ?" 
+        placeholder={labels.messagePlaceholder} 
         required
         ></textarea>
 
-        <button type="submit">ENVOYER</button>
+        <button type="submit">{labels.sendButton}</button>
       </form>
 
-
-        <p className="footer-text">
-          Ce site a été réalisé à la main et ne collecte aucune donnée.
-          Vous pouvez trouver le code source sur <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>.
-          Merci de votre visite, passez une bonne journée ! 👋
-        </p>
+        <p className="footer-text">{footer.text}</p>
       </div>
     </footer>
   );

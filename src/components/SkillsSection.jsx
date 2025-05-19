@@ -1,22 +1,15 @@
 import React from 'react';
 import '../styles/SkillsSection.css';
+import content from '../data/content.json';
 
 function SkillsSection() {
+  const { skills, labels } = content;
+
   return (
     <section id='competences' className="skills-section">
-      <h2>Mes Compétences</h2>
+      <h2>{labels.skillsTitle}</h2>
       <div className="skills-grid">
-        {[
-          ['html5', 'HTML5'],
-          ['css3', 'CSS3'],
-          ['javascript', 'JavaScript'],
-          ['react', 'React'],
-          ['redux', 'Redux'],
-          ['sass', 'Sass'],
-          ['vscode', 'VS Code'],
-          ['git', 'Git'],
-          ['github', 'GitHub']
-        ].map(([name, label]) => (
+        {skills.map(([name, label]) => (
           <div key={name} className="skill-card">
             <img
               src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${name}/${name}-original.svg`}

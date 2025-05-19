@@ -1,31 +1,14 @@
-// src/components/Formations.jsx
-import React from 'react';
+import content from '../data/content.json';
 import '../styles/Formations.css';
 
 function Formations() {
-  const data = [
-    {
-      year: '2024 - 2025',
-      title: 'Développeur Intégrateur Web',
-      subtitle: 'Formation OpenClassrooms'
-    },
-    {
-      year: '2020 - 2022',
-      title: 'BTS Commerce International',
-      subtitle: 'Lycée Saint-John Perse à Pau'
-    },
-    {
-      year: '2019 - 2020',
-      title: 'Baccalauréat STMG',
-      subtitle: 'Lycée Louis Barthou à Pau'
-    }
-  ];
+  const { formations, labels } = content;
 
   return (
     <section id='formations' className="formations-section">
-      <h2>Mes Formations</h2>
+      <h2>{labels.formationsTitle}</h2>
       <div className="timeline">
-        {data.map((item, index) => (
+        {formations.map((item, index) => (
           <div
             key={index}
             className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}

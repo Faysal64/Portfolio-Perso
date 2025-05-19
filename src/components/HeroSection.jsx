@@ -1,32 +1,31 @@
 import React from 'react';
 import Profil from '../assets/images/Picture.png';
 import '../styles/HeroSection.css';
-
+import content from '../data/content.json';
 
 function HeroSection() {
+  const { hero, labels } = content;
+
   return (
     <section id='acceuil' className="hero-section">
       <div className="main-content">
         <div className="text-content">
           <h1>
-            <span className="intro">Hello !</span><br />
-            <span className="first-name">Moi c’est</span> <span className="last-name">Faysal.</span>
+            <span className="intro">{hero.intro}</span><br />
+            <span className="first-name">{hero.firstName}</span> <span className="last-name">{hero.name}</span>
           </h1>
-          <h2>Développeur Front-end</h2>
-          <p>
-            Ensemble, réalisons des projets innovants. <br />
-            À distance ou sur site, je suis prêt à relever de nouveaux défis.
-          </p>
+          <h2>{hero.role}</h2>
+          <p>{hero.description}</p>
           <div className="buttons">
-            <a href="#contact" className="btn primary">Contactez-moi</a>
-            <a href="https://github.com/Faysal64" target="_blank" rel="noopener noreferrer" className="btn secondary">Voir sur GitHub</a>
-            <a href="/CV-Dev-Ia.pdf" target="_blank" rel="noopener noreferrer" className="btn download">
-              <span className="icon">⬇</span> Télécharger mon CV
+            <a href="#contact" className="btn primary">{labels.contactButton}</a>
+            <a href={hero.github} target="_blank" rel="noopener noreferrer" className="btn secondary">{labels.githubButton}</a>
+            <a href={hero.cv} target="_blank" rel="noopener noreferrer" className="btn download">
+              <span className="icon">⬇</span> {labels.downloadCV}
             </a>
           </div>
         </div>
         <div className="image-content">
-          <img src={Profil} alt="Faysal Driouach" />
+          <img src={Profil} alt={hero.name} />
         </div>
       </div>
     </section>        

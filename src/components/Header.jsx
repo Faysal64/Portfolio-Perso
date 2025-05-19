@@ -1,19 +1,22 @@
+// 📁 src/components/Header.jsx
 import React, { useEffect, useState } from 'react';
 import Logo from '../assets/images/LogoF.png';
 import '../styles/Header.css';
+import content from '../data/content.json';
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const { header } = content;
 
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY;
 
       if (currentY > lastScrollY) {
-        setShowHeader(false); 
+        setShowHeader(false);
       } else {
-        setShowHeader(true); 
+        setShowHeader(true);
       }
 
       setLastScrollY(currentY);
@@ -30,13 +33,12 @@ function Header() {
           <img src={Logo} alt="Logo" />
         </div>
         <nav className="nav-links">
-          <a href="#acceuil">ACCEUIL</a>
-          <a href="#services">SERVICES</a>
-          <a href="#projets">PROJETS</a>
-          <a href="#competences">COMPETENCES</a>
-          <a href="#formations">FORMATIONS</a>
-          <a href="#contact" className="contact-button">CONTACT</a>
-
+          <a href="#acceuil">{header.home}</a>
+          <a href="#services">{header.services}</a>
+          <a href="#projets">{header.projects}</a>
+          <a href="#competences">{header.skills}</a>
+          <a href="#formations">{header.formations}</a>
+          <a href="#contact" className="contact-button">{header.contact}</a>
         </nav>
       </div>
     </header>

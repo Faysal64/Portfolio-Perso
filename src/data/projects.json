@@ -2,46 +2,55 @@
   {
     "title": "Booki",
     "description": "Création d'un site web responsive pour une agence de voyage (HTML/CSS)",
-    "image": "Booki.png"
+    "image": "Booki.png",
+    "url": "https://github.com/Faysal64/Projet-3-Booki.git"
   },
   {
     "title": "Outdoor",
     "description": "Développé en HTML et CSS ce site est un projet personnel pour une agence touristique",
-    "image": "Outdoor.png"
+    "image": "Outdoor.png",
+    "url": "https://github.com/Faysal64/Outdoor-projet-laFabrique.git"
   },
   {
     "title": "Kasa",
     "description": "Site de location d'appartement réalisé en ReactJs, réutilisation des composants.",
-    "image": "Kasa.png"
+    "image": "Kasa.png",
+    "url": "https://github.com/Faysal64/Kasa.git"
   },
   {
     "title": "Ohmyfood",
     "description": "Site web responsive avec animations CSS pour un restaurant",
-    "image": "Ohmyfood.png"
+    "image": "Ohmyfood.png",
+    "url": "https://github.com/Faysal64/OHMYFOOD.git"
   },
   {
     "title": "Sophie Bluel",
     "description": "Ce site est un portfolio d'une photographe, réalisé en HTML, CSS et JavaScript. Le site inclut un filtrage dynamique des catégories.",
-    "image": "Sophie.png"
+    "image": "Sophie.png",
+    "url": "https://github.com/Faysal64/Portfolio-architecte-sophie-bluel-master2-master2-main.git"
   },
   {
     "title": "724 events",
     "description": "Débugguer le site d'une agence d'événementiel",
-    "image": "724-events.png"
+    "image": "724-events.png",
+    "url": "https://github.com/Faysal64/Debuggez-une-application-React.JS-main.git"
   },
   {
     "title": "Print it",
     "description": "Mise en place d'un carrousel en JavaScript",
-    "image": "Print-it.png"
+    "image": "Print-it.png",
+    "url": "https://github.com/Faysal64/Print-it-JS-main.git"
   },
   {
     "title": "Nina Carrducci",
     "description": "Optimiser le site d'une photographe grâce au référencement naturel SEO",
-    "image": "Nina.png"
+    "image": "Nina.png",
+    "url": "https://github.com/Faysal64/ninacarducci.github.io-main.git"
   },
   {
     "title": "Argent Bank",
     "description": "Site web responsive pour une banque réalisé en ReactJs, utilisation de Redux et réutilisation des composants",
-    "image": "Argent-Bank.png"
+    "image": "Argent-Bank.png",
+    "url": "https://github.com/Faysal64/argent-bank-master.git"
   }
 ]
