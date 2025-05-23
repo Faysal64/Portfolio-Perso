@@ -8,15 +8,18 @@
   "contact": "CONTACT"
 },
 
-  "hero": {
-    "intro": "Hello !",
-    "firstName": "Moi c’est",
-    "name": "Faysal.",
-    "role": "Développeur Front-end",
-    "description": "Ensemble, réalisons des projets innovants. À distance ou sur site, je suis prêt à relever de nouveaux défis.",
-    "github": "https://github.com/Faysal64",
-    "cv": "/CV-Dev-Ia.pdf"
-  },
+"hero": {
+  "name": "Faysal Driouach",
+  "role": "Développeur Front-end",
+  "description": "Ensemble, réalisons des projets innovants. À distance ou sur site, je suis prêt à relever de nouveaux défis.",
+  "cv": "/CV-Dev-la.pdf",
+  "github": "https://github.com/Faysal64",
+  "icons": {
+    "contact": "/icons/mail.svg",
+    "github": "/icons/github.svg",
+    "download": "/icons/download.svg"
+  }
+},
   "services": [
     {
       "title": "Applications",

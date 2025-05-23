@@ -4,23 +4,24 @@ import '../styles/HeroSection.css';
 import content from '../data/content.json';
 
 function HeroSection() {
-  const { hero, labels } = content;
+  const { hero } = content;
 
   return (
     <section id='acceuil' className="hero-section">
       <div className="main-content">
         <div className="text-content">
-          <h1>
-            <span className="intro">{hero.intro}</span><br />
-            <span className="first-name">{hero.firstName}</span> <span className="last-name">{hero.name}</span>
-          </h1>
+          <h1 className="last-name">{hero.name}</h1> {/* Affiche seulement le nom */}
           <h2>{hero.role}</h2>
           <p>{hero.description}</p>
           <div className="buttons">
-            <a href="#contact" className="btn primary">{labels.contactButton}</a>
-            <a href={hero.github} target="_blank" rel="noopener noreferrer" className="btn secondary">{labels.githubButton}</a>
-            <a href={hero.cv} target="_blank" rel="noopener noreferrer" className="btn download">
-              <span className="icon">⬇</span> {labels.downloadCV}
+            <a href="#contact" className="btn primary" title="Contact">
+              <img src={hero.icons.contact} alt="Contact" />
+            </a>
+            <a href={hero.github} target="_blank" rel="noopener noreferrer" className="btn secondary" title="GitHub">
+              <img src={hero.icons.github} alt="GitHub" />
+            </a>
+            <a href={hero.cv} target="_blank" rel="noopener noreferrer" className="btn download" title="Télécharger le CV">
+              <img src={hero.icons.download} alt="Télécharger" />
             </a>
           </div>
         </div>
@@ -28,7 +29,7 @@ function HeroSection() {
           <img src={Profil} alt={hero.name} />
         </div>
       </div>
-    </section>        
+    </section>
   );
 }
 
