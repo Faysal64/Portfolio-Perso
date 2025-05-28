@@ -1,3 +1,4 @@
+// App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -8,7 +9,6 @@ import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
 import Formations from './components/Formations';
 import SkillsSection from './components/SkillsSection';
-import MentionsLegales from './components/MentionsLegales'; 
 
 function Home() {
   return (
@@ -16,7 +16,7 @@ function Home() {
       <div
         className="hero-background-wrapper"
         style={{
-          backgroundImage: `url(/images/Fond.png)`, 
+          backgroundImage: `url(/images/Fond.png)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -42,7 +42,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/mentions-legales" element={<MentionsLegales />} />
       </Routes>
     </Router>
   );

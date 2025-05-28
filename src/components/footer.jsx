@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Footer.css';
 import content from '../data/content.json';
+import MentionsLegalesModal from './MentionsLegalesModal';
 
 function Footer() {
   const { footer, labels } = content;
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <footer id='contact' className="footer">
+    <footer id="contact" className="footer">
       <div className="footer-container">
         <h2>{labels.contactTitle}</h2>
 
@@ -39,10 +41,15 @@ function Footer() {
 
         <p className="footer-legal">
           © {new Date().getFullYear()} {footer.author}. {footer.rights} <br />
-          <a href="/mentions-legales" target="_blank" rel="noopener noreferrer">
+          <button 
+            className="legal-link" 
+            onClick={() => setIsModalOpen(true)}
+          >
             {footer.mentions}
-          </a>
+          </button>
         </p>
+
+        <MentionsLegalesModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       </div>
     </footer>
   );
