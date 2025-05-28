@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Logo from '../assets/images/LogoF.png';
 import '../styles/Header.css';
 import content from '../data/content.json';
 
@@ -28,12 +27,12 @@ function Header() {
     <header className={`header ${showHeader ? 'visible' : 'hidden'}`}>
       <div className="header-container">
         <div className="logo">
-          <img src={Logo} alt="Logo" />
+          <img src="/images/LogoF.png" alt="Logo" /> 
         </div>
 
         <div className="menu-icon" onClick={toggleMenu}>
           {isMenuOpen ? (
-            <span className="close">&#10005;</span> // Croix ✕
+            <span className="close">&#10005;</span> 
           ) : (
             <>
               <div className="bar"></div>

@@ -1,25 +1,24 @@
 {
   "header": {
-  "home": "ACCEUIL",
-  "services": "SERVICES",
-  "projects": "PROJETS",
-  "skills": "COMPETENCES",
-  "formations": "FORMATIONS",
-  "contact": "CONTACT"
-},
-
-"hero": {
-  "name": "Faysal Driouach",
-  "role": "Développeur Front-end",
-  "description": "Ensemble, réalisons des projets innovants. À distance ou sur site, je suis prêt à relever de nouveaux défis.",
-  "cv": "/CV-Dev-la.pdf",
-  "github": "https://github.com/Faysal64",
-  "icons": {
-    "contact": "/icons/mail.svg",
-    "github": "/icons/github.svg",
-    "download": "/icons/download.svg"
-  }
-},
+    "home": "ACCEUIL",
+    "services": "SERVICES",
+    "projects": "PROJETS",
+    "skills": "COMPETENCES",
+    "formations": "FORMATIONS",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "name": "Faysal Driouach",
+    "role": "Développeur Front-end",
+    "description": "Ensemble, réalisons des projets innovants. À distance ou sur site, je suis prêt à relever de nouveaux défis.",
+    "cv": "/CV-Dev-a.pdf",
+    "github": "https://github.com/Faysal64",
+    "icons": {
+      "contact": "/icons/mail.svg",
+      "github": "/icons/github.svg",
+      "download": "/icons/download.svg"
+    }
+  },
   "services": [
     {
       "title": "Applications",
@@ -38,42 +37,15 @@
     }
   ],
   "skills": [
-    [
-      "html5",
-      "HTML5"
-    ],
-    [
-      "css3",
-      "CSS3"
-    ],
-    [
-      "javascript",
-      "JavaScript"
-    ],
-    [
-      "react",
-      "React"
-    ],
-    [
-      "redux",
-      "Redux"
-    ],
-    [
-      "sass",
-      "Sass"
-    ],
-    [
-      "vscode",
-      "VS Code"
-    ],
-    [
-      "git",
-      "Git"
-    ],
-    [
-      "github",
-      "GitHub"
-    ]
+    ["html5", "HTML5"],
+    ["css3", "CSS3"],
+    ["javascript", "JavaScript"],
+    ["react", "React"],
+    ["redux", "Redux"],
+    ["sass", "Sass"],
+    ["vscode", "VS Code"],
+    ["git", "Git"],
+    ["github", "GitHub"]
   ],
   "formations": [
     {
@@ -94,7 +66,10 @@
   ],
   "footer": {
     "email": "faysaldriouach.64@gmail.com",
-    "text": "Ce site a été réalisé à la main et ne collecte aucune donnée. Vous pouvez trouver le code source sur GitHub. Merci de votre visite, passez une bonne journée ! 👋"
+    "note": "Retrouvez mon email ici :",
+    "author": "Faysal Driouach",
+    "rights": "Tous droits réservés.",
+    "mentions": "Mentions légales"
   },
   "labels": {
     "contactButton": "Contactez-moi",
@@ -102,11 +77,32 @@
     "downloadCV": "Télécharger mon CV",
     "servicesTitle": "Mes services",
     "skillsTitle": "Mes Compétences",
+    "projectsTitle": "Mes Projets",
     "formationsTitle": "Mes Formations",
     "contactTitle": "Me contacter",
     "emailLabel": "Email",
     "messageLabel": "Message",
     "messagePlaceholder": "Que souhaitez-vous dire ?",
-    "sendButton": "ENVOYER"
-  }
+    "subjectLabel": "Objet",
+    "subjectPlaceholder": "Sujet de votre message",
+    "sendButton": "ENVOYER",
+    "firstNameLabel": "Prénom",
+    "lastNameLabel": "Nom"
+  },
+
+  "legal": {
+  "title": "Mentions légales",
+  "editor": "Nom de l’éditeur",
+  "publisher": "Responsable de publication",
+  "emailLabel": "Adresse e-mail",
+  "hosting": "Hébergement",
+  "hostingDetail": "Ce site est hébergé par Netlify.",
+  "dataUsage": "Utilisation des données",
+  "dataUsageDetail": "Ce site ne collecte aucune donnée personnelle. Il n'utilise ni cookies ni outils de traçage.",
+  "intellectual": "Propriété intellectuelle",
+  "intellectualDetail": "Tout le contenu de ce site est protégé. Toute reproduction est interdite sans autorisation écrite.",
+  "terms": "Conditions d’utilisation",
+  "termsDetail": "Ce site est accessible 24h/24, mais peut faire l'objet de maintenance sans préavis."
+}
+
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
 import Footer from './components/footer';
 import HeroSection from './components/HeroSection';
@@ -6,17 +8,15 @@ import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
 import Formations from './components/Formations';
 import SkillsSection from './components/SkillsSection';
-import Fond from './assets/images/Fond.png'; // ← import de ton image de fond
+import MentionsLegales from './components/MentionsLegales'; 
 
-
-function App() {
+function Home() {
   return (
-    <div>
-      {/* ✅ Ce bloc aura le fond */}
+    <>
       <div
         className="hero-background-wrapper"
         style={{
-          backgroundImage: `url(${Fond})`,
+          backgroundImage: `url(/images/Fond.png)`, 
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -26,7 +26,6 @@ function App() {
         <HeroSection />
       </div>
 
-      {/* ✅ Le reste sans fond */}
       <main>
         <ServicesSection />
         <ProjectsSection />
@@ -34,7 +33,18 @@ function App() {
         <Formations />
       </main>
       <Footer />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mentions-legales" element={<MentionsLegales />} />
+      </Routes>
+    </Router>
   );
 }
 
