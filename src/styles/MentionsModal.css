@@ -9,14 +9,16 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .modal-content {
   background: #fff;
   color: #111;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   border-radius: 10px;
-  width: 90%;
+  width: 100%;
   max-width: 700px;
   max-height: 90vh;
   overflow-y: auto;
@@ -24,6 +26,8 @@
   font-family: 'Poppins', sans-serif;
   text-align: left;
   position: relative;
+  box-sizing: border-box;
+  margin: 0 1rem; /* ✅ Marge sur tous les côtés pour éviter bord à bord */
 }
 
 .modal-header {
@@ -31,11 +35,14 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .modal-header h2 {
   font-size: 1.8rem;
   margin: 0;
+  flex: 1;
+  word-break: break-word;
 }
 
 .footer-text {
@@ -48,9 +55,13 @@
 
 .footer-text p {
   margin: 0;
+  word-break: break-word;
 }
 
 .modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
@@ -62,4 +73,36 @@
 
 .modal-close:hover {
   color: #ff0000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 1.5rem 1rem;
+    font-size: 0.95rem;
+    margin: 0 1rem;
+  }
+
+  .modal-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal-close {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 1rem 0.8rem;
+    margin: 0 1rem;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+
+  .modal-header h2 {
+    font-size: 1.3rem;
+  }
 }
