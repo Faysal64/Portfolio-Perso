@@ -27,7 +27,7 @@
   text-align: left;
   position: relative;
   box-sizing: border-box;
-  margin: 0 1rem; /* ✅ Marge sur tous les côtés pour éviter bord à bord */
+  margin: 0 1rem; 
 }
 
 .modal-header {
@@ -75,7 +75,7 @@
   color: #ff0000;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .modal-content {
     padding: 1.5rem 1rem;

@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 50px;
   text-align: center;
-  padding: 0 40px; /* ✅ Marge horizontale constante sur toutes tailles d'écran */
+  padding: 0 40px; 
   box-sizing: border-box;
 }
 
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 768px) {
   .projects-section {
-    padding: 0 24px; /* ✅ Un peu moins de padding sur petit écran */
+    padding: 0 24px; 
   }
 
   .project-card {
