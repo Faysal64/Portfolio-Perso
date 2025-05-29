@@ -124,7 +124,7 @@ body {
 }
 
 
-/* ↓ À partir de 1024px : on baisse la section texte */
+
 @media (max-width: 1041px) {
   .text-content {
     margin-top: 160px;
@@ -159,7 +159,7 @@ body {
   }
 
   .image-content {
-    margin-top: -80px; /* RAPPROCHE l'image du texte */
+    margin-top: -80px; 
     margin-left: 20px;
   }
 
