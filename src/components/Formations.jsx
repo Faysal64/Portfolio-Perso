@@ -1,7 +1,7 @@
 import content from '../data/content.json';
 import '../styles/Formations.css';
 
-function Formations() {
+const Formations = () => {
   const { formations, labels } = content;
 
   return (

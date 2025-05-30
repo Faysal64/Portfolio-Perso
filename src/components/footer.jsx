@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 import content from '../data/content.json';
 import MentionsLegalesModal from './MentionsLegalesModal';
 
-function Footer() {
+const Footer = () => {
   const { footer, labels } = content;
   const [isModalOpen, setIsModalOpen] = useState(false);
 

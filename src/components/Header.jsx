@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/Header.css';
 import content from '../data/content.json';
 
-function Header() {
+const  Header = () => {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
